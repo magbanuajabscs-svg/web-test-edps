@@ -1,15 +1,15 @@
 <?php
 // Database Configuration
-define('DB_HOST', 'localhost');
-define('DB_PORT', 3307); // Custom MySQL port
-define('DB_NAME', 'edps_studio');
-define('DB_USER', 'root'); // Change this to your MySQL username
-define('DB_PASS', ''); // Change this to your MySQL password
+define('DB_HOST', 'sql207.infinityfree.com'); // InfinityFree MySQL server
+define('DB_PORT', 3306); // Default MySQL port
+define('DB_NAME', 'if0_41885465_edps_studio'); // Replace with your actual database name
+define('DB_USER', 'if0_41885465'); // Replace with your actual MySQL username
+define('DB_PASS', 'llc7ugVRLUV60'); // Replace with your actual MySQL password
 
 // Application Configuration
 define('APP_NAME', 'EDPS Studio');
-define('APP_URL', 'http://localhost/edps_studio'); // Change this to your app URL
-define('UPLOAD_PATH', __DIR__ . '/Pictures/');
+define('APP_URL', 'https://edpsstudio.wuaze.com'); // Update with your InfinityFree domain
+define('UPLOAD_PATH', __DIR__ . '/uploads/'); // Create an 'uploads' folder for Pictures
 
 // Session Configuration
 ini_set('session.cookie_httponly', 1);
